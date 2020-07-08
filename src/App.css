@@ -1,0 +1,190 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.SurveyForm{
+  position: relative;
+  bottom:0;
+  height:'100vh';
+}
+/* .topContainer{
+height: "5vh";
+position:fixed;
+} */
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.selectionOptions {
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottomContainer {
+  background-color: inherit !important;
+  /* rgba(red, green, blue, alpha); */
+  margin-top: 2.5%;
+}
+
+body, html {
+  /* margin-top: 5%; */
+  background-image: url("./assets/corona.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+  
+}
+
+.contents{
+  display: block;
+  padding-top: 70px;
+  min-height:100%;
+  height:auto !important;
+  height:100%
+}
+
+body::-webkit-scrollbar {
+  width: 0.02em;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: darkgrey;
+outline: 1px solid slategrey;
+}
+
+
+.header {
+  background-color: #4285f4;
+}
+
+.bottomContainer{
+  background-color: white;
+}
+
+.map{
+  height:'100%';
+}
+.map2{
+  height:'100vh';
+}
+
+.fa{
+  color: #4285f4;
+}
+
+.shareIcons{
+  margin: 2% 30% 0 30%;
+}
+
+.socialMediaIcons{
+  font-size: 2rem;
+  padding: 1% 18% 10% 18%;
+}
+
+.shareLinkIcon{
+  font-size: 2rem;
+}
+
+.md-form .form-control{
+  padding: .6rem 0 0.1rem 0;
+}
+
+.md-form {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.buttonPressed{
+  background-color: rgba(111, 32, 32, 0.568) !important;
+}
+
+.doneButton{
+visibility: hidden;
+}
+
+.doneButtonActive{
+  background-color: rgb(111, 32, 32) !important;
+}
+
+.form-control.validate{
+  margin-bottom: 2.0rem;
+}
+
+ /* @media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    background-color: pink;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+  }
+
+  .jumbotron{
+    width: 100%;
+    background-color: pink;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+  }
+} */
+
+/* button.btn.Ripple-parent:hover{
+background-color: red;
+color: white;
+} */
+.footer{
+  background-color: #cb3d3a;
+  bottom:0;
+  height:10vh;
+  margin-top: 1.5%;
+}
+
+.footer2{
+  
+    background-color: #9E9A9B;
+    bottom:0;
+    height:15vh;
+    margin-top: 1.5%;
+  }
+
+  .termsButton{
+    background-color: #cb3d3a !important;
+    border: none;
+    position: left;
+    font-size: 0.5rem;
+    color: white;
+    margin-right: 0;
+  }
